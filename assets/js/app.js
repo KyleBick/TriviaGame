@@ -53,7 +53,7 @@ $(document).ready(function(){
         q2: '250,000',
         q3: 'Zombie',
         q4: 'Disobey',
-        q5: 'Zoltan Bathroy',
+        q5: 'Zoltan Bathory',
         q6: 'Diamante',
         q7: 'Chris Cain',
         q8: 'John Boecklin',
