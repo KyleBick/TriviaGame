@@ -1,0 +1,52 @@
+body {
+    background-image: url(../images/background.gif);
+    background-size: 100%;
+    background-position:;
+}
+
+img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+audio{
+    display: none;
+}
+
+.head {
+    font-size: 4em;
+    color: rgb(156, 25, 25);
+    margin-bottom: 17%;
+    margin-left: 3%;
+}
+
+.jumbotron {
+    border: solid 5px grey;
+    background-color: black;
+    height: 425px;
+    margin-top: 5%;
+}
+
+.rock {
+    font-size: 3em;
+    color: white;
+}
+
+.lead{
+    color: white;
+    font-size: 2em;
+}
+
+#results{
+    color: white;
+    font-size: 2em;
+}
+
+.btn{
+    background-color: grey;
+    border: none;
+    margin: 2px;
+    margin-left: 50px;  
+}
+
+

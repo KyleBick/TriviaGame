@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+   
+
+ </head>
+
+  <body>
+  
+    <audio controls autoplay loop>
+      <source id="music" src="./assets/images/Bad Wolves - Learn To Live www.my-free-mp3.net .mp3" type="audio/mp3"/>
+    </audio>
+   
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+                <div class="left">
+                    <img src="./assets/images/badwolves.png">
+                    <h1 class="head">Trivia Game</h1>
+                </div>
+        </div>
+        <div class="col-4"></div>
+        <div class="col-4">
+            <img src="./assets/images/shield.jpg">
+        </div>
+     </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <div id="game">
+          <h2 class="rock">Time to Rock</h2>
+          <p id="remaining-time" class="lead">Time Remaining: <span id="timer"></span></p>
+          <p id="question" class="lead"></p>    
+        </div>
+        <div id="results">
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="choices" class="text-center">
+          <button id="start" class="btn btn-info btn-lg">Mosh</button>
+          <div id="options">
+            
+          </div>
+          
+        </div>
+      </div>
+
+    </div> 
+
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- TRIVIA APP JS -->
+    <script src="./assets/js/app.js"></script>  
+
+
+  </body>
+</html>
